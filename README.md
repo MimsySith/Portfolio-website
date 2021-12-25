@@ -1,7 +1,7 @@
 
 # Conceit and value
 
-The point of this webpage is to show proespective employers that I am competant in HTML5 and CSS3. Future iterations of this website will show competance also in languages such as JavaScript, Python, Django, and SQL.
+The point of this webpage is to show prospective employers that I am competent in HTML5 and CSS3. Future iterations of this website will show competance also in languages such as JavaScript, Python, Django, and SQL.
 
 The **index** file is not my home/home information page, but rather a portal into the website. I did this because I wanted to do a design that is a little different to welcome people in, but that would be distracting to put all throughout the webpage. However, all the pages including the **index** page will follow a common design theme to link them together.
 
