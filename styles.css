@@ -95,7 +95,10 @@ nav div:hover > ul{
     background-color: #008000;
     float: left;
     color: white;
-    
+    font-size:x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 500px;
+    text-indent: 20px;
 
 }
 
@@ -261,6 +264,30 @@ nav div:hover > ul{
 #buttonOne{
     font-size: 14pt;
     background-color: #1ffd17;
+}
+
+#contactDiv{
+    position: relative;
+    left: 30%;
+    top: 0%;
+    width: 1500px;
+    height: 500px;
+    background: linear-gradient(green, white);
+}
+
+#formOne{
+    color: white;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+#submitButton{
+    background: linear-gradient(green, yellowgreen);
 }
 
 #divHover {

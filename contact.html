@@ -6,7 +6,7 @@
         <link rel = "stylesheet" type = "text/css" href = "styles.css"/>
         <script src = "homeJava.js" type = "text/javascript"></script>
     
-        <title>Portfolio - Miriam Smith - Home</title>
+        <title>Portfolio - Miriam Smith - Contact</title>
     </head>
     
     
@@ -41,22 +41,22 @@
             <p>Miriam Smith <br> Email: <a href = "mailto:miriam@smithydrafting.com.au">miriam@smithydrafting.com.au</a></p>
             <br> Or you can submit an online enquiry below: <br>
             </div>
-          
+          <form action = "#" method = "post">
             <div class = "divOne">
-                <form action = "#" method = "post" id = "formOne">
+                <!--<form action = "#" method = "post" id = "formOne">-->
                 <label for = "name">Name:</label>
                 <input type = "text" name = "name" id = "formName" pattern = "[A-Za-z]"/>
-                </form>
+               <!-- </form> -->
             </div>
             <div class = "divTwo">
-                <form action = "#" method = "post" id = "formTwo">
+               <!-- <form action = "#" method = "post" id = "formTwo"> -->
                     <label for = "email">Email:</label>
-                    <input type = "email" name = "email" id = "formEmail" required = "required"/>
-                </form>
+                    <input type = "email" name = "email" id = "formEmail" required = "true"/>
+              <!--  </form> -->
             </div>    
             <div class = "divThree">
                 <p class = "bodyText">Some extra information:</p>
-                <form action = "#" method = "post" id = "formThree" aria-required = "true">
+             <!--   <form action = "#" method = "post" id = "formThree" aria-required = "true"> -->
                 <label for = "species">Species (required field):</label><br>
                 <label><input type = "radio" name = "species" value = "Human"/>Human</label><br>
                 <label><input type = "radio" name = "species" value = "Wookiee"/>Wookiee</label><br>
@@ -70,17 +70,16 @@
                     <option value = "Wishy washy liberal">Wishy washy Liberal</option>
                     <option value = "Quaker">Quaker</option>
                 </select>
-            </form>
+           <!-- </form> -->
             </div>
 
             <div class = "divFour">
-                <form action = "#" method = "post" id = "formFour">
+                <!--<form action = "#" method = "post" id = "formFour">-->
                 <textarea name = "message" cols = "60" rows = "20" placeholder="Write your message here - something nice :)"></textarea>
-                </form>
+               <!-- </form> -->
             </div>
-            <input type = "submit" form = "formOne formTwo formThree formFour" value = "Submit Enquiry"/>
-       
-
+            <input type = "submit" value = "Submit Enquiry"/>
+        </form>    
        
     </body>        
 </html>
