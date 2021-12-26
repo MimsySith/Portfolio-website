@@ -34,5 +34,53 @@
         </figure>
     
             <br><br><br>
+       
+        <!--The online enquiry form plus my email:-->
+        
+            <div id = "bodyText">Contact details:
+            <p>Miriam Smith <br> Email: <a href = "mailto:miriam@smithydrafting.com.au">miriam@smithydrafting.com.au</a></p>
+            <br> Or you can submit an online enquiry below: <br>
+            </div>
+          
+            <div class = "divOne">
+                <form action = "#" method = "post" id = "formOne">
+                <label for = "name">Name:</label>
+                <input type = "text" name = "name" id = "formName" pattern = "[A-Za-z]"/>
+                </form>
+            </div>
+            <div class = "divTwo">
+                <form action = "#" method = "post" id = "formTwo">
+                    <label for = "email">Email:</label>
+                    <input type = "email" name = "email" id = "formEmail" required = "required"/>
+                </form>
+            </div>    
+            <div class = "divThree">
+                <p class = "bodyText">Some extra information:</p>
+                <form action = "#" method = "post" id = "formThree" aria-required = "true">
+                <label for = "species">Species (required field):</label><br>
+                <label><input type = "radio" name = "species" value = "Human"/>Human</label><br>
+                <label><input type = "radio" name = "species" value = "Wookiee"/>Wookiee</label><br>
+                <label><input type = "radio" name = "species" value = "Klingon"/>Klingon</label><br>
+                <label><input type = "radio" name = "species" value = "Rather not say"/>Rather not say</label>
+                
+                <p id = "bodyText">And your political persuasion:</p>
+                <select name = "Political Persuasion">
+                    <option value = "Radical Right">Radical Right</option>
+                    <option value = "Extreme Left">Extreme Left</option>
+                    <option value = "Wishy washy liberal">Wishy washy Liberal</option>
+                    <option value = "Quaker">Quaker</option>
+                </select>
+            </form>
+            </div>
+
+            <div class = "divFour">
+                <form action = "#" method = "post" id = "formFour">
+                <textarea name = "message" cols = "60" rows = "20" placeholder="Write your message here - something nice :)"></textarea>
+                </form>
+            </div>
+            <input type = "submit" form = "formOne formTwo formThree formFour" value = "Submit Enquiry"/>
+       
+
+       
     </body>        
 </html>
