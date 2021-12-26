@@ -36,11 +36,19 @@ window.onload = function(){
         var time = "";
 
         time += " X: "
-        time += ev.pageX;
+        time += ev.pageX - canvas.offsetLeft;
         time += " Y: ";
-        time += ev.pageY;
+        time += ev.pageY - canvas.offsetTop;
 
         document.getElementById("userTime").innerHTML = time;
     }
+
+    document.getElementById("buttonOne").addEventListener("click", clearCanvas, false);
     
+    function clearCanvas(){
+        var canvasOne = document.getElementById("homeCanvas");
+        var contextOne = canvasOne.getContext("2d");
+
+        contextOne.clearRect(0, 0, canvasOne.width, canvasOne.height);
+    }
 }

@@ -43,20 +43,20 @@
             </div>
           <form action = "#" method = "post">
             <div class = "divOne">
-                <!--<form action = "#" method = "post" id = "formOne">-->
+                
                 <label for = "name">Name:</label>
-                <input type = "text" name = "name" id = "formName" pattern = "[A-Za-z]"/>
-               <!-- </form> -->
+                <input type = "text" name = "name" id = "formName" required = "true"/>
+            
             </div>
             <div class = "divTwo">
-               <!-- <form action = "#" method = "post" id = "formTwo"> -->
+               
                     <label for = "email">Email:</label>
                     <input type = "email" name = "email" id = "formEmail" required = "true"/>
-              <!--  </form> -->
+              
             </div>    
             <div class = "divThree">
                 <p class = "bodyText">Some extra information:</p>
-             <!--   <form action = "#" method = "post" id = "formThree" aria-required = "true"> -->
+             
                 <label for = "species">Species (required field):</label><br>
                 <label><input type = "radio" name = "species" value = "Human"/>Human</label><br>
                 <label><input type = "radio" name = "species" value = "Wookiee"/>Wookiee</label><br>
@@ -70,16 +70,19 @@
                     <option value = "Wishy washy liberal">Wishy washy Liberal</option>
                     <option value = "Quaker">Quaker</option>
                 </select>
-           <!-- </form> -->
+          
             </div>
 
             <div class = "divFour">
-                <!--<form action = "#" method = "post" id = "formFour">-->
+                
                 <textarea name = "message" cols = "60" rows = "20" placeholder="Write your message here - something nice :)"></textarea>
-               <!-- </form> -->
+               
             </div>
-            <input type = "submit" value = "Submit Enquiry"/>
+
+            <!--The submit button for the whole shebang-->
+            <input type = "submit" value = "Submit Enquiry" id = "submitButton"/>
         </form>    
-       
+        <footer id = "footer2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &copy; Miriam Smith 2021 || Insert Legal Bollocks Here || Tel: &phone; +61 437 009 947</footer>
+
     </body>        
 </html>
